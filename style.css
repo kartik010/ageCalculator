@@ -36,6 +36,10 @@ textarea{
     border-color: hsl(0, 1%, 44%);
     font-size: 27pt;
 }
+textarea::placeholder{
+    padding-left: 8px;
+    color: hsl(0, 1%, 44%);
+}
 label{
     font-size: 15px;
     color: hsl(0, 1%, 44%);
