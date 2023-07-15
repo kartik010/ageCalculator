@@ -109,7 +109,7 @@ h1 span{
     }
     .circle{
         margin: 0 auto;
-        width: 17vw;
+        width: 18vw;
         height:12vh;
     }
     h1{
@@ -118,6 +118,10 @@ h1 span{
     #errorYY , #errorMM , #errorDD {
         color: hsl(0, 100%, 67%);
         font-size: 7px;
+    }
+    textarea::placeholder{
+        text-align: center;
+        font-size: 10pt;
     }
     
 }
