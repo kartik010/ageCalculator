@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ageCalculator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400;1,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main">
+
+    <div class="sectionOne">
+
+      <div class="textBox">
+        <div class="one"><label  id="lable" for="day">DAY</label><br><textarea name="day" id="day" maxlength="2" ></textarea> <br> <span id="errorDD"></span></div>
+        <div class="two"><label  id="lable1" for="month">MONTH</label><br><textarea name="month" id="month" maxlength="2"></textarea> <br> <span id="errorMM"></span></div>
+        <div class="three"><label  id="lable2" for="year">YEAR</label><br><textarea name="year" id="year" maxlength="4"></textarea> <br> <span id="errorYY"></span></div>
+      </div>
+    </div>
+
+    <div class="sectionTwo"><hr class="line"><div class="circle"><img src="images/icon-arrow.svg" alt="arrow" srcset=""></div></div>
+    
+    <div class="sectionThree">
+        <h1><span class="yy">- - </span>years</h1><br>
+        <h1><span class="mm">- - </span>months</h1><br>
+        <h1><span class="dd">- - </span>days</h1><br>
+    </div>
+
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
