@@ -37,8 +37,9 @@ textarea{
     font-size: 27pt;
 }
 textarea::placeholder{
+    font-size: 20pt;
     padding-left: 8px;
-    color: hsl(0, 1%, 44%);
+    color: hsl(0, 1%, 40%);
 }
 label{
     font-size: 15px;
